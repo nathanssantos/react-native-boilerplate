@@ -8,9 +8,6 @@ import PrivateNavigator from './PrivateNavigator';
 
 import { useStore } from '../hooks';
 
-import rem from '../utils/rem';
-import Colors from '../constants/Colors';
-
 const RootStack = createNativeStackNavigator();
 
 const Navigator = () => {
@@ -18,12 +15,7 @@ const Navigator = () => {
 
   return (
     <NavigationContainer>
-      <RootStack.Navigator
-        screenOptions={{
-          headerStyle: { backgroundColor: Colors.white },
-          headerTitleContainerStyle: { left: rem(30) },
-        }}
-      >
+      <RootStack.Navigator>
         {store.authStore.isAuthenticated ? (
           <RootStack.Screen
             name="private"
