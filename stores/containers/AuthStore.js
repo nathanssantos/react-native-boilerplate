@@ -31,6 +31,7 @@ export default class AuthStore {
       const { email, password, mock } = payload;
 
       if (mock) {
+        console.log({ email, password });
         this.status = 'authenticated';
         return true;
       }
