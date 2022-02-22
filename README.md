@@ -20,7 +20,7 @@ React Native integration for React Navigation.
 
 [Github](https://github.com/axios/axios) | [NPM](https://www.npmjs.com/package/axios)
 
-Promise based HTTP client for the browser and node.js
+Promise based HTTP client for the browser and node.js.
 
 ### expo
 
@@ -130,7 +130,7 @@ Yup is a schema builder for runtime value parsing and validation. Define a schem
 
 [Github](https://github.com/babel/babel) | [NPM](https://www.npmjs.com/package/@babel/core)
 
-Babel (pronounced "babble") is a community-driven project used by many companies and projects, and is maintained by a group of volunteers. If you'd like to help support the future of the project, please consider:
+Babel is a tool that helps you write code in the latest version of JavaScript. When your supported environments don't support certain features natively, Babel will help you compile those features down to a supported version.
 
 ### @babel/eslint-parser
 
@@ -142,7 +142,7 @@ Babel (pronounced "babble") is a community-driven project used by many companies
 
 [Github](https://github.com/eslint/eslint) | [NPM](https://www.npmjs.com/package/eslint)
 
-ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code. In many ways, it is similar to JSLint and JSHint with a few exceptions:
+ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
 
 ### eslint-config-airbnb
 
@@ -178,7 +178,7 @@ Runs Prettier as an ESLint rule and reports differences as individual ESLint iss
 
 [Github](https://github.com/yannickcr/eslint-plugin-react) | [NPM](https://www.npmjs.com/package/eslint-plugin-react)
 
-React specific linting rules for eslint
+React specific linting rules for eslint.
 
 ### eslint-plugin-react-hooks
 
