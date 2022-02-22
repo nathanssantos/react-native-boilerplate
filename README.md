@@ -1,4 +1,4 @@
-# React Web Boilerplate
+# React Native Boilerplate
 
 [React](https://reactjs.org) boilerplate built with [Mobx](https://mobx.js.org) as state manager and [Native Base](https://docs.nativebase.io/) as component library.
 
