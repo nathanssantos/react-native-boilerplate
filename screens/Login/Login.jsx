@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { flowResult } from 'mobx';
 import { observer } from 'mobx-react';
 import { Formik } from 'formik';
@@ -6,10 +7,12 @@ import {
   Box,
   Button,
   FormControl,
+  Icon,
   Input,
   Text,
   WarningOutlineIcon,
 } from 'native-base';
+import { MaterialIcons } from '@expo/vector-icons';
 import { useStore } from '../../hooks';
 import { FormDefinitions } from '../../constants';
 
@@ -19,6 +22,9 @@ const {
 
 const Login = () => {
   const store = useStore();
+  const [showPassword, setShowPassword] = useState(false);
+
+  const togglePassword = () => setShowPassword(!showPassword);
 
   const onSubmit = async (formValues) => {
     const response = await flowResult(
@@ -65,6 +71,30 @@ const Login = () => {
               <FormControl isInvalid={touched.password && errors.password}>
                 <FormControl.Label>Password</FormControl.Label>
                 <Input
+                  type={showPassword ? 'text' : 'password'}
+                  InputRightElement={
+                    <Button
+                      size="xs"
+                      rounded="none"
+                      h="full"
+                      variant="ghost"
+                      onPress={togglePassword}
+                    >
+                      {showPassword ? (
+                        <Icon
+                          as={<MaterialIcons name="visibility-off" />}
+                          size={5}
+                          color="muted.500"
+                        />
+                      ) : (
+                        <Icon
+                          as={<MaterialIcons name="visibility" />}
+                          size={5}
+                          color="muted.500"
+                        />
+                      )}
+                    </Button>
+                  }
                   onChangeText={handleChange('password')}
                   onBlur={handleBlur('password')}
                   value={values.password}
