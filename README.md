@@ -1,6 +1,6 @@
 # React Native Boilerplate
 
-Boilerplate for [React Native](https://reactjs.org) applications built with [Mobx](https://mobx.js.org) as state manager and [Native Base](https://docs.nativebase.io/) as component library.
+Boilerplate for [React Native](https://reactnative.dev/) applications built with [Mobx](https://mobx.js.org) as state manager and [Native Base](https://docs.nativebase.io/) as component library.
 
 ## Dependencies
 
