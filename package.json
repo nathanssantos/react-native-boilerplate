@@ -22,6 +22,18 @@
     "web": "expo start --web",
     "eject": "expo eject"
   },
+  "keywords": [
+    "react",
+    "boilerplate",
+    "eslint",
+    "mobx",
+    "material-ui",
+    "prettier",
+    "yup",
+    "formik",
+    "vite",
+    "vitejs"
+  ],
   "dependencies": {
     "@expo/vector-icons": "^12.0.5",
     "@react-navigation/native": "^6.0.8",
