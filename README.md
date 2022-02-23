@@ -76,6 +76,12 @@ Package with React component wrapper for combining React with MobX. Exports the 
 
 NativeBase is a mobile-first, accessible component library for building a consistent design system across android, iOS & web.
 
+### `prop-types`
+
+[Github](https://github.com/facebook/prop-types) | [NPM](https://www.npmjs.com/package/prop-types)
+
+Runtime type checking for React props and similar objects.
+
 ### `react`
 
 [Github](https://github.com/facebook/react) | [NPM](https://www.npmjs.com/package/react)
