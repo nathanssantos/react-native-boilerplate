@@ -2,6 +2,19 @@
   "name": "react-native-boilerplate",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "description": "Boilerplate for React Native applications built with Mobx as a state manager and Native Base as a component library.",
+  "author": {
+    "name": "Nathan Silva Santos",
+    "email": "nathansilvasantos@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanssantos/react-native-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nathanssantos/react-native-boilerplate/issues"
+  },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
