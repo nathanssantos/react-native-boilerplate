@@ -10,7 +10,7 @@ Boilerplate for React Native applications, built with Native Base as a component
 yarn
 ```
 
-3 - Install all the necessary extensions for VS Code:
+2 - Install all the necessary extensions for VS Code:
 
 - Eslint
 - Prettier
@@ -22,7 +22,7 @@ yarn
 yarn dev
 ```
 
-## Build
+## Building a preview for Android
 
 ```
 expo build android -t apk
