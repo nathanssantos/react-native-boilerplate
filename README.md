@@ -1,6 +1,6 @@
 # React Native TypeScript Boilerplate
 
-Boilerplate for React Native applications, built with Native Base as a component library, Mobx as a state manager, and Vite as a build tool.
+Boilerplate for [React Native](https://reactnative.dev) applications, built with [Native Base](https://nativebase.io) as a component library, [Mobx](https://mobx.js.org) as a state manager, and [Expo](https://docs.expo.dev) as a managing tool.
 
 ## Setup
 
