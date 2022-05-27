@@ -1,6 +1,6 @@
 # React Native TypeScript Boilerplate
 
-Boilerplate for [React Native](https://reactnative.dev) applications, built with [Native Base](https://nativebase.io) as a component library, [MobX](https://mobx.js.org) as a state manager, and [Expo](https://docs.expo.dev) as a managing framework.
+WIP - Boilerplate for [React Native](https://reactnative.dev) applications, built with [Native Base](https://nativebase.io) as a component library, [MobX](https://mobx.js.org) as a state manager, and [Expo](https://docs.expo.dev) as a managing framework.
 
 ## Setup
 
